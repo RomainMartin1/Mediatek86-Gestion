@@ -1278,5 +1278,19 @@ namespace Mediatek86.vue
 
         #endregion
 
+        private void BtnLivresAjouter_MouseClick(object sender, MouseEventArgs e)
+        {
+
+        }
+
+        private void BtnLivresModifier_MouseClick(object sender, MouseEventArgs e)
+        {
+
+        }
+
+        private void BtnLivresSupprimer_MouseClick(object sender, MouseEventArgs e)
+        {
+
+        }
     }
 }

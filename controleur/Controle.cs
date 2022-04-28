@@ -103,6 +103,36 @@ namespace Mediatek86.controleur
             return Dao.CreerExemplaire(exemplaire);
         }
 
+        /// <summary>
+        /// Ajoute un livre dans la bdd.
+        /// </summary>
+        /// <param name="livre">L'objet livre concerné.</param>
+        /// <returns>True si la création a pu se faire, false sinon.</returns>
+        public bool CreerLivre(Livre livre)
+        {
+            return Dao.CreerLivre(livre);
+        }
+
+        /// <summary>
+        /// Ajoute un dvd dans la bdd.
+        /// </summary>
+        /// <param name="dvd">L'objet dvd concerné.</param>
+        /// <returns>True si la création a pu se faire, false sinon.</returns>
+        public bool CreerDvd(Dvd dvd)
+        {
+            return Dao.CreerDVD(dvd);
+        }
+
+        /// <summary>
+        /// Ajoute une revue dans la bdd.
+        /// </summary>
+        /// <param name="dvd">L'objet revue concerné.</param>
+        /// <returns>True si la création a pu se faire, false sinon.</returns>
+        public bool CreerRevue(Revue revue)
+        {
+            return Dao.CreerRevue(revue);
+        }
+
     }
 
 }
