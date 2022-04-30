@@ -120,7 +120,7 @@ namespace Mediatek86.controleur
         /// <returns>True si la création a pu se faire, false sinon.</returns>
         public bool CreerDvd(Dvd dvd)
         {
-            return Dao.CreerDVD(dvd);
+            return Dao.CreerDvd(dvd);
         }
 
         /// <summary>
@@ -131,6 +131,66 @@ namespace Mediatek86.controleur
         public bool CreerRevue(Revue revue)
         {
             return Dao.CreerRevue(revue);
+        }
+
+        /// <summary>
+        /// Modifie un livre dans la bdd.
+        /// </summary>
+        /// <param name="livre">L'objet livre concerné.</param>
+        /// <returns>True si la modification a pu se faire, false sinon.</returns>
+        public bool ModifierLivre(Livre livre)
+        {
+            return Dao.ModifierLivre(livre);
+        }
+
+        /// <summary>
+        /// Modifie un dvd dans la bdd.
+        /// </summary>
+        /// <param name="dvd">L'objet dvd concerné.</param>
+        /// <returns>True si la modification a pu se faire, false sinon.</returns>
+        public bool ModifierDvd(Dvd dvd)
+        {
+            return Dao.ModifierDvd(dvd);
+        }
+
+        /// <summary>
+        /// Modifie une revue dans la bdd.
+        /// </summary>
+        /// <param name="dvd">L'objet revue concerné.</param>
+        /// <returns>True si la modification a pu se faire, false sinon.</returns>
+        public bool ModifierRevue(Revue revue)
+        {
+            return Dao.ModifierRevue(revue);
+        }
+
+        /// <summary>
+        /// Supprime un livre de la bdd.
+        /// </summary>
+        /// <param name="livre">L'objet livre concerné.</param>
+        /// <returns>True si la suppression a pu se faire, false sinon.</returns>
+        public bool SupprimerLivre(Livre livre)
+        {
+            return Dao.SupprimerLivre(livre);
+        }
+
+        /// <summary>
+        /// Supprime un dvd de la bdd.
+        /// </summary>
+        /// <param name="dvd">L'objet dvd concerné.</param>
+        /// <returns>True si la suppression a pu se faire, false sinon.</returns>
+        public bool SupprimerDvd(Dvd dvd)
+        {
+            return Dao.SupprimerDvd(dvd);
+        }
+
+        /// <summary>
+        /// Supprime une revue de la bdd.
+        /// </summary>
+        /// <param name="dvd">L'objet revue concerné.</param>
+        /// <returns>True si la suppression a pu se faire, false sinon.</returns>
+        public bool SupprimerRevue(Revue revue)
+        {
+            return Dao.SupprimerRevue(revue);
         }
 
     }

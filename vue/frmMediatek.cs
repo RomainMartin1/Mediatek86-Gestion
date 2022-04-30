@@ -130,7 +130,7 @@ namespace Mediatek86.vue
         }
 
         /// <summary>
-        /// Recherche et affichage des revues dont le titre matche acec la saisie.
+        /// Recherche et affichage des revues dont le titre matche avec la saisie.
         /// Cette procédure est exécutée à chaque ajout ou suppression de caractère
         /// dans le textBox de saisie.
         /// </summary>
@@ -203,7 +203,7 @@ namespace Mediatek86.vue
         }
 
         /// <summary>
-        /// Filtre sur le genre
+        /// Filtre sur le genre.
         /// </summary>
         /// <param name="sender"></param>
         /// <param name="e"></param>
@@ -222,7 +222,7 @@ namespace Mediatek86.vue
         }
 
         /// <summary>
-        /// Filtre sur la catégorie de public
+        /// Filtre sur la catégorie de public.
         /// </summary>
         /// <param name="sender"></param>
         /// <param name="e"></param>
@@ -241,7 +241,7 @@ namespace Mediatek86.vue
         }
 
         /// <summary>
-        /// Filtre sur le rayon
+        /// Filtre sur le rayon.
         /// </summary>
         /// <param name="sender"></param>
         /// <param name="e"></param>
@@ -261,7 +261,7 @@ namespace Mediatek86.vue
 
         /// <summary>
         /// Sur la sélection d'une ligne ou cellule dans le grid
-        /// affichage des informations de la revue
+        /// affichage des informations de la revue.
         /// </summary>
         /// <param name="sender"></param>
         /// <param name="e"></param>
@@ -286,7 +286,7 @@ namespace Mediatek86.vue
         }
 
         /// <summary>
-        /// Sur le clic du bouton d'annulation, affichage de la liste complète des revues
+        /// Sur le clic du bouton d'annulation, affichage de la liste complète des revues.
         /// </summary>
         /// <param name="sender"></param>
         /// <param name="e"></param>
@@ -296,7 +296,7 @@ namespace Mediatek86.vue
         }
 
         /// <summary>
-        /// Sur le clic du bouton d'annulation, affichage de la liste complète des revues
+        /// Sur le clic du bouton d'annulation, affichage de la liste complète des revues.
         /// </summary>
         /// <param name="sender"></param>
         /// <param name="e"></param>
@@ -306,7 +306,7 @@ namespace Mediatek86.vue
         }
 
         /// <summary>
-        /// Sur le clic du bouton d'annulation, affichage de la liste complète des revues
+        /// Sur le clic du bouton d'annulation, affichage de la liste complète des revues.
         /// </summary>
         /// <param name="sender"></param>
         /// <param name="e"></param>
@@ -317,7 +317,7 @@ namespace Mediatek86.vue
 
         /// <summary>
         /// Affichage de la liste complète des revues
-        /// et annulation de toutes les recherches et filtres
+        /// et annulation de toutes les recherches et filtres.
         /// </summary>
         private void RemplirRevuesListeComplete()
         {
@@ -326,7 +326,7 @@ namespace Mediatek86.vue
         }
 
         /// <summary>
-        /// vide les zones de recherche et de filtre
+        /// Vide les zones de recherche et de filtre.
         /// </summary>
         private void VideRevuesZones()
         {
@@ -338,7 +338,7 @@ namespace Mediatek86.vue
         }
 
         /// <summary>
-        /// Tri sur les colonnes
+        /// Tri sur les colonnes.
         /// </summary>
         /// <param name="sender"></param>
         /// <param name="e"></param>
@@ -449,7 +449,7 @@ namespace Mediatek86.vue
         }
 
         /// <summary>
-        /// Recherche et affichage des livres dont le titre matche acec la saisie.
+        /// Recherche et affichage des livres dont le titre matche avec la saisie.
         /// Cette procédure est exécutée à chaque ajout ou suppression de caractère
         /// dans le textBox de saisie.
         /// </summary>
@@ -479,7 +479,7 @@ namespace Mediatek86.vue
         }
 
         /// <summary>
-        /// Affichage des informations du livre sélectionné
+        /// Affichage des informations du livre sélectionné.
         /// </summary>
         /// <param name="livre"></param>
         private void AfficheLivresInfos(Livre livre)
